@@ -1,9 +1,9 @@
 def square_array(array)
-  squared = []	  squared = []
-  array.each { |element| squared << element ** 2 }	  count = 0
+  squared = []
+count = 0
   while count < array.size do
     squared << (array[count] ** 2)
     count = count + 1
   end
-  squared	  squared
-end 	end 
+  squared
+end
